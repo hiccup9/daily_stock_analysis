@@ -255,7 +255,8 @@ jobs:
           # ==========================================
           TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
           TICKFLOW_API_KEY: ${{ secrets.TICKFLOW_API_KEY }}
-          SOCIAL_SENTIMENT_API_KEY: ${{ secrets.SOCIAL_SENTIMENT_API_KEY }}          
+          SOCIAL_SENTIMENT_API_KEY: ${{ secrets.SOCIAL_SENTIMENT_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           # Longbridge OpenAPI（美股/港股实时行情字段补充；不设则仅 YFinance/AkShare，无 [Longbridge] 调用）
           LONGBRIDGE_OAUTH_CLIENT_ID: ${{ vars.LONGBRIDGE_OAUTH_CLIENT_ID || secrets.LONGBRIDGE_OAUTH_CLIENT_ID }}
           LONGBRIDGE_OAUTH_TOKEN_CACHE_B64: ${{ secrets.LONGBRIDGE_OAUTH_TOKEN_CACHE_B64 }}
