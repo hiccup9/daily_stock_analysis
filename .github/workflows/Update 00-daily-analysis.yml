@@ -254,6 +254,7 @@ jobs:
           # 数据源
           # ==========================================
           TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
+          TUSHARE_HTTP_URL: ${{ secrets.TUSHARE_HTTP_URL }}
           TICKFLOW_API_KEY: ${{ secrets.TICKFLOW_API_KEY }}
           SOCIAL_SENTIMENT_API_KEY: ${{ secrets.SOCIAL_SENTIMENT_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
